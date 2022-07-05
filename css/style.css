@@ -1,0 +1,86 @@
+body{
+    font-family: 'Open', sans-serif;
+}
+h1{
+    text-align: center;
+}
+.todo {
+    background-color: #c6f0f5;
+    padding: 20px;
+}
+#form {
+    width: 50%;
+    margin: 10px auto;
+}
+form label {
+    font-size: 1.5em;
+}
+#todo-id{
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-sizing: border-box;
+}
+#todo-id:focus{
+    background-color: rgba(9, 10, 10, 0.856);
+    color: white;
+}
+#submit-btn{
+    border: none;
+    width: 20%;
+    margin: 10px 40%;
+    font-size: 1.5em;
+    padding: 10px;
+    background-color: #2863cf;
+    border-radius: 5px;
+}
+#todo-table{
+    
+}
+table{
+    width: 50%;
+    margin: 10px auto;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    font-size: 1.5em;
+    text-align: left;
+}
+td{
+    border-top: 1px solid silver;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+tr:nth-child(even){
+    background-color: rgb(100, 221, 237);
+}
+tr:hover{
+    background-color: aqua;
+}
+.btn{
+    width: 50%;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    cursor: pointer;
+}
+#delete-btn{
+    background-color: rgb(252, 8, 8);
+    color: white;
+}
+#update-btn{
+    display: none;
+    background-color: rgb(41, 221, 41);
+}
+.td-checked {
+    text-decoration: line-through;
+    text-decoration-style: solid;
+    text-decoration-thickness: 5px;
+    text-decoration-color: green;
+}
