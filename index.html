@@ -12,6 +12,8 @@
             <form id="form">
                 <label for="todo-id">Add Activity</label><br>
                 <input type="text" class="add-todo" id="todo-id" placeholder="Add ToDo activity">
+                <label for="todo-id">Set the due date</label><br>
+                <input type="datetime-local" id="date">
                 <input type="submit" id="submit-btn" value=" Add Activity">
             </form>
         </div>
@@ -19,6 +21,8 @@
             <table>
                 <thead>
                     <th>Activity</th>
+                    <th>Due</th>
+                    <th>Time Remaining</th>
                     <th>Action</th>
                 </thead>
                 <tbody class="tbody">
