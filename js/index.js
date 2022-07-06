@@ -40,8 +40,6 @@ function addActivity(e){
             <td><button type="button" class= "btn" id="update-btn">Update</td>
             <td><input type="checkbox" id="check">Mark As Done</td>  
             <td><button type="button" class= "btn" id="delete-btn">Delete</td>
-            
-
         `
         // delete an activity
         const del = tableRow.querySelector('#delete-btn');
@@ -53,7 +51,6 @@ function addActivity(e){
         const check =tableRow.querySelector('#check');
         const td = tableRow.querySelector('#activity');
         check.addEventListener('click', (e)=>{
-            //td.style.textDecoration = "line-through";
             td.classList.toggle('td-checked');
             
         }, false)
@@ -75,8 +72,6 @@ function addActivity(e){
         tbody.appendChild(tableRow)
     }
     form.reset()
-//    setInterval(activityCountDown, 1000)
 }
 
-//setInterval(addActivity, 1000)
 form.addEventListener('submit', addActivity)
